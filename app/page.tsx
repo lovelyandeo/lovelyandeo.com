@@ -36,33 +36,33 @@ import { Badge } from "@/components/ui/badge"
 // Recent updates/ventures
 const recentUpdates = [
   {
-    date: "December 2024",
-    title: "Started Canadarm3 Research",
+    date: "September 2024",
+    title: "Started space robotics research",
     description:
-      "Began my Master's research on AI-powered anomaly detection for space robotics at University of Toronto, collaborating with MDA Space.",
+      "Began my Master's research on AI-powered anomaly detection for space robotics at University of Toronto under Prof. Steven Waslander (TRAILab)",
     type: "research",
     icon: Rocket,
   },
   {
     date: "November 2024",
-    title: "SGAC ACHIEVED Academy Completion",
+    title: "SGAC ACHIEVED Academy completion",
     description:
       "Successfully managed educational programs for 60 talented students worldwide, focusing on advanced space topics.",
     type: "outreach",
     icon: Users,
   },
   {
-    date: "October 2024",
+    date: "Agust 2024",
     title: "Moved to Toronto",
     description: "Started my new chapter in Canada for my Master's degree in Aerospace Science & Engineering.",
     type: "personal",
     icon: Plane,
   },
   {
-    date: "June 2024",
+    date: "July 2024",
     title: "Graduated Magna Cum Laude",
     description:
-      "Completed my Bachelor's in Physics at University of the Philippines Diliman as a consistent University Scholar.",
+      "Completed my Bachelor's in Physics at University of the Philippines Diliman and recieved the Gawad Tsanselor para sa Natatanging Mag-aaral 2025 award.",
     type: "academic",
     icon: Award,
   },
@@ -72,46 +72,37 @@ const recentUpdates = [
 const researchProjects = [
   {
     id: 1,
-    title: "AI for Canadarm3 Anomaly Detection",
+    title: "Anomaly Detection",
     description:
-      "Developing deep learning models for autonomous space robotics perception and anomaly detection in collaboration with MDA Space.",
+      "Developing deep learning models for autonomous space robotics perception and anomaly detection.",
     status: "Active",
     institution: "University of Toronto",
     tags: ["Deep Learning", "Computer Vision", "Space Robotics", "Anomaly Detection"],
     year: "2024-Present",
-    links: [
-      { type: "Research Proposal", url: "#", icon: ExternalLink },
-      { type: "Progress Report", url: "#", icon: ExternalLink },
-    ],
+    //links: [
+      //{ type: "Research Proposal", url: "#", icon: ExternalLink },
+      //{ type: "Progress Report", url: "#", icon: ExternalLink },
+    //],
   },
   {
     id: 2,
-    title: "MOSAIKS Wealth Prediction Philippines",
+    title: "Predicting Wealth Indices of Philippine Household Clusters with Machine Learning Using MOSAIKS Features",
     description:
       "Using machine learning to predict socioeconomic indicators from satellite imagery for Philippine household clusters.",
-    status: "Published",
-    institution: "Data and Computation Laboratory",
+    status: "Abstract Accepted",
+    institution: "Data and Computation Laboratory, UP Diliman",
     tags: ["Machine Learning", "Satellite Data", "Geospatial Analysis", "Social Impact"],
-    year: "2021-2023",
-    links: [
-      { type: "arXiv Preprint", url: "#", icon: ExternalLink },
-      { type: "Conference Paper", url: "#", icon: ExternalLink },
-      { type: "GitHub Repository", url: "#", icon: Github },
-    ],
+    year: "2023",
   },
   {
     id: 3,
-    title: "Neuromorphic Vision for Space Applications",
+    title: "Simulation of Resident Space Object Tracking for Space Situational Awareness using Event-based Vision",
     description:
       "Investigating potential applications of event-based vision sensors in space technology and situational awareness.",
-    status: "Ongoing",
+    status: "Abstract Accepted",
     institution: "Data and Computation Laboratory",
     tags: ["Neuromorphic Computing", "Event-based Vision", "Space Technology"],
-    year: "2021-Present",
-    links: [
-      { type: "Research Paper", url: "#", icon: ExternalLink },
-      { type: "Technical Report", url: "#", icon: ExternalLink },
-    ],
+    year: "2024",
   },
 ]
 
@@ -130,11 +121,11 @@ const outreachActivities = [
       "Created SEDSPH Upskill Groups initiative",
     ],
     impact: "Inspiring the next generation of Filipino space professionals",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/sedsph.JPG?height=300&width=500",
     socialLinks: [
-      { platform: "Instagram", url: "#", icon: Instagram },
-      { platform: "Facebook", url: "#", icon: Facebook },
-      { platform: "LinkedIn", url: "#", icon: Linkedin },
+      { platform: "Instagram", url: "https://www.instagram.com/seds.ph/", icon: Instagram },
+      { platform: "Facebook", url: "https://www.facebook.com/SEDSPH/", icon: Facebook },
+      { platform: "LinkedIn", url: "https://www.linkedin.com/company/seds-philippines/", icon: Linkedin },
     ],
   },
   {
@@ -149,7 +140,7 @@ const outreachActivities = [
       "Primary liaison for student inquiries and engagement",
     ],
     impact: "Fostering global collaboration in space education",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/sgac.png?height=300&width=500",
     socialLinks: [{ platform: "Website", url: "#", icon: ExternalLink }],
   },
 ]
