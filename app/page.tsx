@@ -437,7 +437,7 @@ export default function Portfolio() {
             <div className="flex justify-center lg:justify-end">
               <div className="w-80 h-80 rounded-2xl overflow-hidden shadow-2xl border-4 border-[#8B5A3C]/20">
                 <img
-                  src="/placeholder.svg?height=400&width=400"
+                  src="/lovely.jpg"
                   alt="Lovely Andeo"
                   className="w-full h-full object-cover"
                 />
