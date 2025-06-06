@@ -525,7 +525,7 @@ export default function Portfolio() {
 
                       {/* Publication Links */}
                       <div className="flex flex-wrap gap-2 mb-4">
-                        {project.links.map((link, i) => (
+                        {(project.links ?? []).map((link, i) => ( // edit when links are added
                           <Button
                             key={i}
                             variant="outline"
