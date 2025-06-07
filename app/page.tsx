@@ -120,9 +120,9 @@ const outreachActivities = [
     ],
     image: "/sedsph.JPG?height=300&width=500",
     socialLinks: [
-      { platform: "Instagram", url: "https://www.instagram.com/seds.ph/", icon: Instagram },
-      { platform: "Facebook", url: "https://www.facebook.com/SEDSPH/", icon: Facebook },
-      { platform: "LinkedIn", url: "https://www.linkedin.com/company/seds-philippines/", icon: Linkedin },
+      { platform: "Instagram", url: "#https://www.instagram.com/seds.ph/", icon: Instagram },
+      { platform: "Facebook", url: "#https://www.facebook.com/SEDSPH/", icon: Facebook },
+      { platform: "LinkedIn", url: "#https://www.linkedin.com/company/seds-philippines/", icon: Linkedin },
     ],
   },
   {
@@ -137,7 +137,7 @@ const outreachActivities = [
       "Primary liaison for student inquiries and engagement",
     ],
     image: "/sgac.png?height=300&width=500",
-    socialLinks: [{ platform: "Website", url: "#", icon: ExternalLink }],
+    socialLinks: [{ platform: "Website", url: "#https://spacegeneration.org/epd", icon: ExternalLink }],
   },
 ]
 
