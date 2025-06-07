@@ -86,23 +86,21 @@ const researchProjects = [
   },
   {
     id: 2,
-    title: "Predicting Wealth Indices of Philippine Household Clusters with Machine Learning Using MOSAIKS Features",
-    description:
-      "Using machine learning to predict socioeconomic indicators from satellite imagery for Philippine household clusters.",
-    status: "Abstract Accepted",
-    institution: "Data and Computation Laboratory, UP Diliman",
-    tags: ["Machine Learning", "Satellite Data", "Geospatial Analysis", "Social Impact"],
-    year: "2023",
-  },
-  {
-    id: 3,
     title: "Simulation of Resident Space Object Tracking for Space Situational Awareness using Event-based Vision",
     description:
       "Investigating potential applications of event-based vision sensors in space technology and situational awareness.",
-    status: "Abstract Accepted",
-    institution: "Data and Computation Laboratory",
+    status: "SPP 2024",
+    institution: "Data and Computation Laboratory, UP Diliman",
     tags: ["Neuromorphic Computing", "Event-based Vision", "Space Technology"],
-    year: "2024",
+  },
+  {
+    id: 3,
+    title: "Predicting Wealth Indices of Philippine Household Clusters with Machine Learning Using MOSAIKS Features",
+    description:
+      "Using machine learning to predict socioeconomic indicators from satellite imagery for Philippine household clusters.",
+    status: "SPP 2023",
+    institution: "Data and Computation Laboratory, UP Diliman",
+    tags: ["Machine Learning", "Satellite Data", "Geospatial Analysis", "Social Impact"],
   },
 ]
 
@@ -378,7 +376,7 @@ export default function Portfolio() {
                 Hi, I'm Lovely
               </h1>
               <div className="text-lg text-[#6B7280] dark:text-[#9CA3AF] mb-2 font-crimson">
-                Aerospace Engineer • AI Researcher • Community Builder
+                Space Robotics & AI Researcher
               </div>
               <div className="text-sm text-[#8B5A3C] font-crimson flex items-center space-x-2 mb-6">
                 <MapPin className="w-4 h-4" />
