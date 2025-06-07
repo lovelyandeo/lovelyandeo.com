@@ -118,7 +118,6 @@ const outreachActivities = [
       "Established partnerships with local and international organizations",
       "Created SEDSPH Upskill Groups initiative",
     ],
-    impact: "Inspiring the next generation of Filipino space professionals",
     image: "/sedsph.JPG?height=300&width=500",
     socialLinks: [
       { platform: "Instagram", url: "https://www.instagram.com/seds.ph/", icon: Instagram },
@@ -137,7 +136,6 @@ const outreachActivities = [
       "Facilitated discussions on Systems Engineering, Launch Operations",
       "Primary liaison for student inquiries and engagement",
     ],
-    impact: "Fostering global collaboration in space education",
     image: "/sgac.png?height=300&width=500",
     socialLinks: [{ platform: "Website", url: "#", icon: ExternalLink }],
   },
